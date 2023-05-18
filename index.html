@@ -9,9 +9,13 @@
 </head>
 <body>
     
-    <div id="title">
+    <div id="container">
 
         <h1 :class = "color">{{ message }}</h1>
+        <div :class="imageContainer">
+            <img v-bind:src="img" />
+        </div>
+        
 
     </div>
 

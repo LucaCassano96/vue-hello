@@ -2,11 +2,21 @@
 const { createApp } = Vue;
 
 createApp({
-data(){
+    
+data()
+{
     return{
+        
         message: "Hello World",
-        color: "red"
+        color: "red",
+        img: "img/montagna-a-settembre.jpeg",
+        imageContainer: "size",
+        
     }
+    
 }
 
-}).mount("#title")
+}).mount("#container")
+
+
+
